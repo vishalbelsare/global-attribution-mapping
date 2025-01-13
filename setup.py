@@ -6,7 +6,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#     http://www.apache.org/licenses/LICENSE-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -51,10 +51,10 @@ setup(
     install_requires=[
         "pandas >= 1.1.3",
         "scikit-learn >= 0.23.2",
-        "numpy >= 1.19.2",
+        "numpy >= 1.22",
         "kaleido == 0.2.1",
         "joblib >= 1.2.0",
     ],
     extras_require=extras_require,
-    python_requires=">=3.6",
+    python_requires=">=3.8",
 )
